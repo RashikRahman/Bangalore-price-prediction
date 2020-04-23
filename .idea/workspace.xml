@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12c2f2a-6a51-4347-ad42-40263563f9c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/runtime.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +151,7 @@
       <workItem from="1587622455565" duration="27652000" />
       <workItem from="1587657026077" duration="231000" />
       <workItem from="1587657267331" duration="2000" />
-      <workItem from="1587657544845" duration="10019000" />
+      <workItem from="1587657544845" duration="10765000" />
     </task>
     <servers />
   </component>
