@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import util
 app=Flask(__name__)
 
@@ -25,6 +25,10 @@ def predict_home_price():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
+
+@app.route('/')
+def index():
+    return render_template('app.html')
 
 if __name__ == '__main__':
     util.load_saved_artifacts()

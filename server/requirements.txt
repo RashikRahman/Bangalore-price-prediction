@@ -1,0 +1,5 @@
+Flask==1.1.2
+Werkzeug==0.16.0
+autopep==1.4.4
+gunicorn==20.0.4
+Click==7.0
