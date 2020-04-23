@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import util
+
+
 app=Flask(__name__)
 
 #utils will contain all the core routines and server will only just route and serve the requests
@@ -26,9 +28,6 @@ def predict_home_price():
 
     return response
 
-@app.route('/')
-def index():
-    return render_template('app.html')
 
 if __name__ == '__main__':
     util.load_saved_artifacts()

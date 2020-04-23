@@ -3,3 +3,5 @@
 *.xml
 .vscode
 __pycache__
+*.xml
+*.xml
