@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e12c2f2a-6a51-4347-ad42-40263563f9c8" name="Default Changelist" comment="" />
+    <list default="true" id="e12c2f2a-6a51-4347-ad42-40263563f9c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/bangalore_home_price_model.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/columns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/artifacts/bangalore_home_price_model.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/artifacts/columns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangalore_home_price_model.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/columns.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,19 +41,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aviPeiR2rYM4xQheT9FeCQgWnI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,7 +75,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.server">
     <configuration name="Predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Banglore price prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,8 +98,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Banglore price prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Banglore price prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.util" />
         <item itemvalue="Python.Predict" />
       </list>
     </recent_temporary>
@@ -88,45 +163,49 @@
       <workItem from="1587622455565" duration="27652000" />
       <workItem from="1587657026077" duration="231000" />
       <workItem from="1587657267331" duration="2000" />
+      <workItem from="1587657544845" duration="8349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587657037842">
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587660101986">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657037842" />
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587660101986" />
     <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1587624106852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587624106852" />
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1587657256953">
+    <state width="1874" height="294" key="GridCell.Tab.0.bottom" timestamp="1587665384759">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657256953" />
-    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1587657256953">
+    <state width="1874" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587665384759" />
+    <state width="1874" height="294" key="GridCell.Tab.0.center" timestamp="1587665384759">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657256953" />
-    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1587657256953">
+    <state width="1874" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587665384759" />
+    <state width="1874" height="294" key="GridCell.Tab.0.left" timestamp="1587665384759">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657256953" />
-    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1587657256953">
+    <state width="1874" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587665384759" />
+    <state width="1874" height="294" key="GridCell.Tab.0.right" timestamp="1587665384759">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657256953" />
+    <state width="1874" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587665384759" />
     <state x="2381" y="182" key="SettingsEditor" timestamp="1587657074022">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657074022" />
-    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587657267738">
+    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587657550751">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657267738" />
+    <state x="2576" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587657550751" />
     <state x="2543" y="235" key="search.everywhere.popup" timestamp="1587646441589">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -134,6 +213,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Banglore_price_prediction$Predict.coverage" NAME="Predict Coverage Results" MODIFIED="1587656978360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bangalore_price_prediction$util.coverage" NAME="util Coverage Results" MODIFIED="1587660525581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/Bangalore_price_prediction$server.coverage" NAME="server Coverage Results" MODIFIED="1587665384752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/Bangalore_price_prediction$Predict.coverage" NAME="Predict Coverage Results" MODIFIED="1587657215557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
